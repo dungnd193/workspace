@@ -1,0 +1,18 @@
+.container {
+    margin-top: 50px;
+}
+
+.modal-content {
+    /* width: 90%; */
+    margin: auto;
+    text-align: center;
+}
+
+.block-image {
+    margin: 15px;
+}
+
+.block-image > img {
+    /* margin: 15px; */
+    width: 100%;
+}

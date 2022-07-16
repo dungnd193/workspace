@@ -1,0 +1,129 @@
+.footer {
+    background-color: var(--black-color);
+}
+
+.footer__heading {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.footer__list,
+.footer__contact {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__item {
+    margin-bottom: 20px;
+}
+
+.footer__item > a {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 200ms;
+}
+
+.footer__item > a:hover {
+    color: #D1AF66;
+    text-decoration: none;
+}
+
+.footer__img-group {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 14px;
+}
+
+.footer__img-fake {
+    width: 56px;
+    height: 56px;
+}
+
+.footer__img-noticed {
+    width: 148px;
+    height: 55px;
+    margin-left: 24px;
+}
+
+.footer__description {
+    color: #878787;
+    font-size: 1.2rem;
+}
+
+.footer__contact {
+    margin-top: 36px;
+}
+
+.footer__contact-item {
+    margin-bottom: 12px;
+}
+
+.footer__contact-item > a {
+    color: var(--white-color);
+    font-size: 1.4rem;
+}
+
+.footer__contact-item > a:hover {
+    cursor: text;
+    text-decoration: none;
+}
+
+.footer__contact-icon-facebook {
+    font-size: 2.4rem;
+    margin-right: 22px;
+}
+
+.footer__contact-icon-instagram {
+    font-size: 2.4rem;
+}
+.footer__contact-icon-facebook,
+.footer__contact-icon-instagram,
+.footer__contact-number {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 200ms;
+}
+
+.footer__contact-icon-facebook:hover,
+.footer__contact-icon-instagram:hover,
+.footer__contact-number:hover {
+    color: #D1AF66;
+    cursor: pointer !important;
+}
+
+
+.footer__bottom {
+    color: #878787;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer__mail-group {
+    display: flex;
+    position: relative;
+}
+
+.footer__input {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    padding: 10px 14px;
+    width: 59%;
+    outline: none;
+}
+
+.footer__input::placeholder {
+    font-size: 1.3rem;
+}
+
+.footer__button-register {
+    background-color: var(--white-color);
+    color: #101010;
+    font-size: 1.4rem;
+    border: none;
+    padding: 8px 16px;
+    
+}

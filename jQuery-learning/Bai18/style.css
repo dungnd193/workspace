@@ -1,0 +1,52 @@
+.noidung {
+    width:40%;
+    margin: auto;
+}
+
+.noidung h1 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.vaicaianh {
+    overflow: hidden;
+
+}
+
+.anhnho {
+    float: left;
+    height:100px;
+    margin-right: 10px;
+}
+
+.tdkhoi {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tdkhoi:hover .fa-chevron-down{
+    margin-right: 10px;
+
+}
+
+._1khoi {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.fa-chevron-down {
+    float: right;
+    transition: 0.4s;
+    margin-right: -100px;
+}
+
+.tdkhoi.xanh {
+    color: lightblue;
+}
+
+.tdkhoi.xanh .fa-chevron-down {
+    margin-right: 10px;
+    transform: rotate(180deg);
+}

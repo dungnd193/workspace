@@ -1,0 +1,96 @@
+.container {
+    width: 1230px;
+}
+
+.to {
+    width:400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.to:hover .anh {
+    transform: scale(1);
+}
+
+.to:hover .thanh1 {
+    transform: rotate(45deg);
+}
+.to:hover .thanh2 {
+    transform: rotate(-45deg);
+}
+
+.to:hover .chuto {
+    top: 125px;
+}
+
+.to:hover .chunho {
+    top: 170px;
+}
+
+
+.anh {
+    height:300px;
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.nenxanh {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(173, 216, 230, 0.666);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.4s
+}
+
+.thanh1,
+.thanh2 {
+    width: 350px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 146px;
+    left: 20px;
+    z-index: 3;
+    transition: 0.4s
+}
+
+.chuto,
+.chunho {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    top: 100px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.chunho {
+    top: 200px;
+    font-size:16px;
+    padding: 0 20px;
+    width: 80%;
+}
+
+.loadthem {
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+}
+
+.nutload {
+    width: 200px;
+    background-color:lightblue;
+    cursor: pointer;
+    overflow: hidden;
+    /* border: none; */
+}

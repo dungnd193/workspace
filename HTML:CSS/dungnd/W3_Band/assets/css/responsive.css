@@ -1,0 +1,139 @@
+/* Responsive PC */
+@media (min-width: 64em) {
+
+}
+
+/* Responsive Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Responsive Mobile */
+@media (max-width: 46.1875em) {
+
+    /* Header Mobile */
+    .header {
+        overflow: hidden;
+        /* height: auto; */
+    }
+
+    .header__navbar {
+        display: block;
+    }
+    .header__navbar-list {
+        display: block;
+        width: 100%;
+    }
+
+    .header__navbar-item {
+        line-height: 46px;
+        display: block;
+        min-width: 90px;
+        height: 46px;
+        padding-left: 26px;
+    }
+
+    .header__navbar-item-link {
+        width: 100%;
+    }
+    
+    .header__navbar-item:first-child {
+        width: 100px;
+    }
+
+    .header__navbar-item:not(.header__navbar-item:first-child):hover {
+        background-color: #ccc;
+        color: var(--black-color);
+    }
+
+    /* .header__navbar-item-link {
+        width: ;
+    } */
+    .header__navbar-search {
+        display: none;
+        
+    }
+
+    .menu-mobile-btn {
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 46px;
+        
+    }
+
+    .menu-mobile-btn:hover {
+        background-color: #ccc;color: var(--black-color);
+    }
+
+    .menu-mobile-btn:hover .menu-icon {
+        color: var(--black-color);
+    }
+
+    .menu-icon {
+        color: var(--white-color);
+        
+        margin: auto;
+        padding: 16px 24px;
+        font-size: 1.4rem;
+    }
+    /* Slider Mobile */
+    .text-heading, .text-description {
+        display: none;
+    }
+    
+    /* Content Mobile */
+    /* About Mobile */
+    .members-list {
+        flex-direction: column;
+    }
+
+    .member-img {
+        width: 60%;
+    }
+    /* Tour Mobile */
+    .travel {
+        flex-direction: column;
+    }
+
+    .travel__city {
+        width: 100%;
+        background-color: var(--white-color);
+        margin-bottom: 16px;
+    }
+
+    .travel__city-buy-btn {
+        width: auto;
+        color: var(--white-color);
+        background-color: var(--black-color);
+        font-size: 1.6rem;
+        line-height: 4.0rem;
+        margin-bottom: 16px;
+        text-align: center;
+        margin: 15px 16px 16px 16px;
+    }
+    /* Contact Mobile */
+    .contact {
+        flex-direction: column;
+    }
+
+    .input-row-up {
+        flex-direction: column;
+    }
+
+    .contact__input {
+        width: 100%;
+    }
+
+    .contact__input:first-child {
+        margin: 12px 0;
+    }
+     
+    .buttonbtn {
+        width: 100%;
+    }
+}
+
+ 

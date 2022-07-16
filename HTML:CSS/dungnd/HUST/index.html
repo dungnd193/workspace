@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUST</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+    <link rel="stylesheet" href="./assets/css/content.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row ptb-8-30">
+                <div class="col-md-6 col-sm-12">
+                    <img class="header__logo" src="./assets/img/logo.png"></img>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+
+                    <div class="header__group">
+                        <div class="header__search">
+                            <input type="text" class="header__input" placeholder="Tìm kiếm">
+                            <i class="fas fa-search header__search-icon"></i>
+                        </div>
+
+                        <div class="header__button">
+                            <button class="header__button-login">ĐĂNG NHẬP</button>
+                            <button class="header__button-for-parrents">DÀNH CHO PHỤ HUYNH</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <div class="container">
+            <div class="row">
+                <ul class="navigation-category">
+                    <li class="navigation-category__item">
+                        <a href="">TRANG CHỦ</a>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">THÔNG BÁO</a>
+                        <ul class="sub-navigation-category">
+                            <li class="sub-navigation-category__item">
+                                <a href="">ĐẠI HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">SAU ĐẠI HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">VỪA LÀM VỪA HỌC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">KẾ HOẠCH</a>
+                        <ul class="sub-navigation-category">
+                            <li class="sub-navigation-category__item">
+                                <a href="">ĐẠI HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">SAU ĐẠI HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">VỪA LÀM VỪA HỌC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">QUY ĐỊNH</a>
+                        <ul class="sub-navigation-category">
+                            <li class="sub-navigation-category__item">
+                                <a href="">ĐẠI HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">SAU ĐẠI HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">VỪA LÀM VỪA HỌC</a>
+                            </li>
+                            <li class="sub-navigation-category__item">
+                                <a href="">BIỂU MẪU</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">DỊCH VỤ</a>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">NHẬP HỌC</a>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">TRA CỨU</a>
+                    </li>
+                    <li class="navigation-category__item">
+                        <a href="">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- Image Slider Start -->
+        <section class="slider">
+            <!-- radio button start -->
+            <input type="radio" hidden name="radio-btn" id="radio1">
+            <input type="radio" hidden name="radio-btn" id="radio2">
+            <input type="radio" hidden name="radio-btn" id="radio3">
+            <input type="radio" hidden name="radio-btn" id="radio4">
+            <!-- radio button end -->
+
+            <div class="slides">
+                <!-- Slider image start -->
+                <div class="slide first">
+                    <img src="./assets/img/slide-1.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide-2.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide-3.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slide-2.jpeg" alt="">
+                </div>
+                <!-- Slider image end -->
+            </div>
+            <!-- Automatic navigation start -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- Automatic navigation end -->
+            <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+        </section>
+        <!-- Image Slider End -->
+        <div class="general">
+            <div class="container">
+                <div class="row">
+                    <ul class="general__task">
+                        <li class="general__task-item general__task-item--clicked th">Tổng hợp</li>
+                        <li class="general__task-item dtdh">Đào tạo đại học</li>
+                        <li class="general__task-item dtsdh">Đào tạo sau đại học</li>
+                        <li class="general__task-item vlvh" >Vừa làm vừa học</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="general-info" id="th">
+            <div class="container">
+                <div class="row mt-30">
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">KẾ HOẠCH</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 09</span>
+                                        <br>
+                                        <span class="plan__calendar-day">03</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Kế hoạch đăng ký lớp học của học kỳ 1 năm học 2021-2022 (2021-1)
+                                        </h3>
+                                        <h4 class="plan__details-time">03/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>   
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 09</span>
+                                        <br>
+                                        <span class="plan__calendar-day">01</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Kế hoạch mở đăng ký tốt nghiệp đợt 20203
+                                        </h3>
+                                        <h4 class="plan__details-time">01/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>     
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 09</span>
+                                        <br>
+                                        <span class="plan__calendar-day">03</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Điều chỉnh mở rộng lịch thi học kỳ 20202.
+                                        </h3>
+                                        <h4 class="plan__details-time">02/08/2021</h4>
+                                    </a>
+                                </div>
+                            </div>    
+                                                   
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">TIN TỨC</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Thông báo về việc thi GDTC kỳ 2020.2 và học GDTC kỳ 2021.1
+                                        </h3>
+                                        <h4 class="plan__details-time">16/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>     
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[Trung tâm Ngôn ngữ và hỗ trợ trao đổi học thuật]</strong> Thông báo thi tiếng Anh nội bộ (quy đổi TOEIC) tháng 10/2021
+                                        </h3>
+                                        <h4 class="plan__details-time">14/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>    
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Biểu đồ kế hoạch học tập năm học 2021-2022
+                                        </h3>
+                                        <h4 class="plan__details-time">10/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="general-info" id="dtdh">
+            <div class="container">
+                <div class="row mt-30">
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">KẾ HOẠCH</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 09</span>
+                                        <br>
+                                        <span class="plan__calendar-day">03</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Kế hoạch đăng ký lớp học của học kỳ 1 năm học 2021-2022 (2021-1)
+                                        </h3>
+                                        <h4 class="plan__details-time">03/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>   
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 09</span>
+                                        <br>
+                                        <span class="plan__calendar-day">01</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Kế hoạch mở đăng ký tốt nghiệp đợt 20203
+                                        </h3>
+                                        <h4 class="plan__details-time">01/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>     
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 09</span>
+                                        <br>
+                                        <span class="plan__calendar-day">03</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Điều chỉnh mở rộng lịch thi học kỳ 20202.
+                                        </h3>
+                                        <h4 class="plan__details-time">02/08/2021</h4>
+                                    </a>
+                                </div>
+                            </div>    
+                                                   
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">TIN TỨC</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Thông báo về việc thi GDTC kỳ 2020.2 và học GDTC kỳ 2021.1
+                                        </h3>
+                                        <h4 class="plan__details-time">16/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>     
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[Trung tâm Ngôn ngữ và hỗ trợ trao đổi học thuật]</strong> Thông báo thi tiếng Anh nội bộ (quy đổi TOEIC) tháng 10/2021
+                                        </h3>
+                                        <h4 class="plan__details-time">14/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>    
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTDH]</strong> Biểu đồ kế hoạch học tập năm học 2021-2022
+                                        </h3>
+                                        <h4 class="plan__details-time">10/09/2021</h4>
+                                    </a>
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="general-info" id="dtsdh">
+            <div class="container">
+                <div class="row mt-30">
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">KẾ HOẠCH</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="plan__calendar">
+                                        <span class="plan__calendar-month">Tháng 10</span>
+                                        <br>
+                                        <span class="plan__calendar-day">07</span>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTSDH]</strong> Thông báo kiểm tra tiếng anh đầu vào K65 (dành cho sinh viên Chương trình tiên tiến và quốc tế)
+                                        </h3>
+                                        <h4 class="plan__details-time">07/10/2021</h4>
+                                    </a>
+                                </div>
+                            </div>   
+                                                   
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">TIN TỨC</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTSDH]</strong> Bảo vệ luận án Tiến sĩ cấp Trường cho nghiên cứu sinh ĐINH THỊ THU LÊ
+                                        </h3>
+                                        <h4 class="plan__details-time">20/01/2021</h4>
+                                    </a>
+                                </div>
+                            </div>     
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTSDH]</strong> Luận án tiến sĩ: Nghiên cứu ứng dụng môi trường plasma trong xử lý hạn chế cháy cho vải bông - NCS Nguyễn Thị Hường
+                                        </h3>
+                                        <h4 class="plan__details-time">18/01/2021</h4>
+                                    </a>
+                                </div>
+                            </div>    
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[ĐTSDH]</strong> Quy chế đào tạo đại học hệ chính quy 2014
+                                        </h3>
+                                        <h4 class="plan__details-time">3/10/2016</h4>
+                                    </a>
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="general-info" id="vlvh">
+            <div class="container">
+                <div class="row mt-30">
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">KẾ HOẠCH</h2>  
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="plan">
+                            <h2 class="plan__heading">TIN TỨC</h2>
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[Viện Đào tạo liên tục]</strong> TUYỂN SINH KHÓA HỌC BỒI DƯỠNG TIẾNG ANH
+                                        </h3>
+                                        <h4 class="plan__details-time">6/08/2021</h4>
+                                    </a>
+                                </div>
+                            </div>     
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[Viện Đào tạo liên tục]</strong> Triển khai thực hiện giãn cách xã hội phòng, chống dịch bệnh COVID-19 (cập nhật 24/7/2021)
+                                        </h3>
+                                        <h4 class="plan__details-time">24/07/2021</h4>
+                                    </a>
+                                </div>
+                            </div>    
+                            <div class="row mb-20">
+                                <div class="col-3">
+                                    <div class="news">
+                                        <img src="./assets/img/news.jpeg" alt="" class="news-img">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <a href="" class="plan__details">
+                                        <h3 class="plan__details-heading">
+                                            <strong>[Viện Đào tạo liên tục]</strong> Thông báo tuyển sinh năm 2021 Văn bằng hai chính qui và Vừa làm vừa học
+                                        </h3>
+                                        <h4 class="plan__details-time">3/3/2021</h4>
+                                    </a>
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="./assets/script/slidebar.js"></script>
+    <script src="./assets/script/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+.general {
+    background-color: var(--primary-color);
+}
+
+.general__task {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+.general__task-item {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.general__task-item--clicked {
+    color: var(--primary-color);
+    font-weight: 700;
+    background-color: var(--white-color);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.plan__heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    border-bottom: 5px solid #E8E8E8;
+}
+
+.plan__calendar {
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 4px 20px;
+}
+
+.plan__calendar-month {
+    color: #2C2C2C;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.plan__calendar-day {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.plan__details {
+    text-decoration: none;
+}
+
+.plan__details-heading {
+    color: #464646;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.plan__details-time {
+    color: #898989;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.news-img {
+    width: 90px;
+    height: 60px;
+}
+
+#th, #dtdh, #dtsdh, #vlvh {
+    animation: fadeIn ease-in 0.2s;
+}
+
+#dtdh, #dtsdh, #vlvh {
+    display: none;
+}
